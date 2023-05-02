@@ -21,6 +21,7 @@ export default function PortofolioPage() {
         height: "100vh",
         textAlign: "center",
         alignItems: "center",
+        justifyContent: "center",
       }}>
       <div className="col-12 mx-auto" style={{ paddingTop: 70 }}>
         <div className="container-fluid">
@@ -28,7 +29,7 @@ export default function PortofolioPage() {
             <h1>My Works</h1>
           </div>
           <div className="row">
-            <div className="mt-5 justify-content-center">
+            <div className="mt-5 d-flex justify-content-center">
               <ul
                 className="grid gap-5 d-flex flex-wrap"
                 style={{ listStyleType: "none" }}>
